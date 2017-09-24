@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka_main" target="1.8" />
+      <module name="cloud-eureka_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="config_main" target="1.8" />
+      <module name="config_test" target="1.8" />
+      <module name="eureka_main" target="1.8" />
+      <module name="eureka_test" target="1.8" />
+      <module name="IdeaProjects-parent_main" target="1.8" />
+      <module name="IdeaProjects-parent_test" target="1.8" />
+      <module name="mybatis-common_main" target="1.8" />
+      <module name="mybatis-common_test" target="1.8" />
+      <module name="parent_main" target="1.8" />
+      <module name="parent_test" target="1.8" />
+      <module name="unreal-common_main" target="1.8" />
+      <module name="unreal-common_test" target="1.8" />
+      <module name="unreal-config_main" target="1.8" />
+      <module name="unreal-config_test" target="1.8" />
+      <module name="unreal-eureka_main" target="1.8" />
+      <module name="unreal-eureka_test" target="1.8" />
+      <module name="unreal-zuul_main" target="1.8" />
+      <module name="unreal-zuul_test" target="1.8" />
+      <module name="user-center_main" target="1.8" />
+      <module name="user-center_test" target="1.8" />
+      <module name="zuul_main" target="1.8" />
+      <module name="zuul_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

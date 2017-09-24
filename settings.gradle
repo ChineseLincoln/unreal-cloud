@@ -1,0 +1,6 @@
+rootProject.name = 'cloud'
+include 'unreal-eureka'
+include 'unreal-zuul'
+include 'unreal-config'
+include 'unreal-common'
+include 'user-center'

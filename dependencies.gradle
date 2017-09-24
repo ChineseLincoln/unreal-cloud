@@ -1,0 +1,10 @@
+ext.springfoxVersion = '2.7.0'
+
+ext.libs = [
+        springfoxSwagger2 : [
+                "io.springfox:springfox-swagger2:${springfoxVersion}"
+        ],
+        springfoxSwaggerUi: [
+                "io.springfox:springfox-swagger-ui:${springfoxVersion}"
+        ],
+]
