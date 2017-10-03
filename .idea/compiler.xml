@@ -16,12 +16,24 @@
       <module name="mybatis-common_test" target="1.8" />
       <module name="parent_main" target="1.8" />
       <module name="parent_test" target="1.8" />
+      <module name="unreal-cloud-unreal-common_main" target="1.8" />
+      <module name="unreal-cloud-unreal-common_test" target="1.8" />
+      <module name="unreal-cloud-unreal-config_main" target="1.8" />
+      <module name="unreal-cloud-unreal-config_test" target="1.8" />
+      <module name="unreal-cloud-unreal-eureka_main" target="1.8" />
+      <module name="unreal-cloud-unreal-eureka_test" target="1.8" />
+      <module name="unreal-cloud-unreal-zuul_main" target="1.8" />
+      <module name="unreal-cloud-unreal-zuul_test" target="1.8" />
+      <module name="unreal-cloud-user-center_main" target="1.8" />
+      <module name="unreal-cloud-user-center_test" target="1.8" />
       <module name="unreal-common_main" target="1.8" />
       <module name="unreal-common_test" target="1.8" />
       <module name="unreal-config_main" target="1.8" />
       <module name="unreal-config_test" target="1.8" />
       <module name="unreal-eureka_main" target="1.8" />
       <module name="unreal-eureka_test" target="1.8" />
+      <module name="unreal-jwt_main" target="1.8" />
+      <module name="unreal-jwt_test" target="1.8" />
       <module name="unreal-zuul_main" target="1.8" />
       <module name="unreal-zuul_test" target="1.8" />
       <module name="user-center_main" target="1.8" />
