@@ -4,35 +4,37 @@ import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
 import io.jsonwebtoken.SignatureException
 import org.joda.time.DateTime
-import org.slf4j.LoggerFactory
 
 object JwtTokenUtils {
 
-    val logger  = LoggerFactory.getLogger(JwtTokenUtils::class.java)
+    private val expirationTime = 3600
 
-    val key = ""
-    val expirationTime = 3600
-
-    fun getToken(userId: String, account: String, username: String, role: String) : String{
+    fun getToken(tokenInfo: TokenInfo) : String{
         return Jwts.builder()
-                .setSubject(username)
-                .setId(userId)
-                .claim("role" ,role)
-                .setIssuer(account)
+                //设置用户名
+                .setSubject(tokenInfo.userName)
+                //设置用户Id
+                .setId(tokenInfo.id)
+                //设置用户权限
+                .setAudience(tokenInfo.role)
+                //设置过期时间
                 .setExpiration(DateTime.now().plusSeconds(expirationTime).toDate())
-                .signWith(SignatureAlgorithm.RS256 , key)
+                //设置颁发时间
+                .setIssuedAt(DateTime.now().toDate())
+                //设置用户账号
+                .claim("account",tokenInfo.account)
+                .signWith(SignatureAlgorithm.RS256 , KeyHelper.getPrivateKey(JwtTokenUtils::class.java.getResource("/pri.key").path))
                 .compact()
     }
 
-    fun parseToken(compactJws:String):Boolean{
-        var isSuccess = false
+    fun parseToken(compactJws:String):TokenInfo{
         try {
-            Jwts.parser().setSigningKey(key).parseClaimsJws(compactJws)
-            isSuccess = true
-            //OK, we can trust this JWT
-        } catch (e: SignatureException) {
-            logger.error("Json web Token 校验失败!",e.message)
+            val parseClaimsJws = Jwts.parser().setSigningKey( KeyHelper.getPublicKey(JwtTokenUtils::class.java.getResource("/pub.key").path)).parseClaimsJws(compactJws)
+            val body = parseClaimsJws.body
+            return TokenInfo(body.id, body["account"].toString(),body.audience,body.subject)
+        }catch (e :SignatureException){
+            throw e
         }
-        return isSuccess
+
     }
 }
