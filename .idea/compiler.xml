@@ -32,6 +32,8 @@
       <module name="unreal-config_test" target="1.8" />
       <module name="unreal-eureka_main" target="1.8" />
       <module name="unreal-eureka_test" target="1.8" />
+      <module name="unreal-jwt_main" target="1.8" />
+      <module name="unreal-jwt_test" target="1.8" />
       <module name="unreal-zuul_main" target="1.8" />
       <module name="unreal-zuul_test" target="1.8" />
       <module name="user-center_main" target="1.8" />
