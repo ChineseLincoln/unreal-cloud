@@ -14,7 +14,7 @@ import java.util.Map;
  * Created by ace on 2017/9/8.
  */
 public class BaseContextHandler {
-    public static ThreadLocal<Map<String, Object>> threadLocal = new ThreadLocal<Map<String, Object>>();
+    public static ThreadLocal<Map<String, Object>> threadLocal = new ThreadLocal<>();
 
     public static void set(String key, Object value) {
         Map<String, Object> map = threadLocal.get();

@@ -1,19 +1,31 @@
 package org.unreal.cloud.rest
 
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
-import org.springframework.web.bind.annotation.PathVariable
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.data.domain.Page
+import org.springframework.http.ResponseEntity
+import org.springframework.web.bind.annotation.*
+import org.unreal.cloud.model.BaseUserEntity
+import org.unreal.cloud.service.BaseUserService
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("users")
 class UserController{
 
     @Value("\${foo:hello}")
     lateinit var foo:String
 
-    @RequestMapping("/{id}")
+    @Autowired
+    lateinit var userService : BaseUserService
+
+    @GetMapping("/{id}")
     fun getUserById(@PathVariable id:String):String{
         return "get foo message is -->${foo}, path id is -->$id"
     }
+
+    @GetMapping
+    fun getUsers(): ResponseEntity<Page<BaseUserEntity>>? {
+        return ResponseEntity.status(50010).body(userService.allUser)
+    }
+
 }
