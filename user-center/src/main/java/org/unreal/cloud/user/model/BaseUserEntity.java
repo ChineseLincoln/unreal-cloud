@@ -1,4 +1,4 @@
-package org.unreal.cloud.model;
+package org.unreal.cloud.user.model;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

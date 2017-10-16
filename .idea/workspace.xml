@@ -2,36 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152b1198-af5c-4962-9dfa-332545fc8e88" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab.keystream" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab.keystream.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab.values.at" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab_i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/artifact-difference.tab_i.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/kotlin-build/caches/version.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/KeyHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/Query.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/StringHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/jwt/IJWTInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/jwt/JWTHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/jwt/JWTInfo.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-common/out/production/classes/org/unreal/cloud/common/util/KeyHelper.class" afterPath="$PROJECT_DIR$/unreal-common/out/production/classes/org/unreal/cloud/common/util/KeyHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-config/unreal-cloud-unreal-config_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-config/unreal-cloud-unreal-config_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-config/unreal-cloud-unreal-config_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-config/unreal-cloud-unreal-config_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/user-center/unreal-cloud-user-center_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/user-center/unreal-cloud-user-center_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/user-center/unreal-cloud-user-center_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/user-center/unreal-cloud-user-center_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/vo/BaseResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/filter/AccessFilter.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/config/MvcConfig.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unreal-common/out/production/classes/org/unreal/cloud/common/util/KeyHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user-center/out/production/classes/org/unreal/cloud/UserCenterApplication$Companion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user-center/out/production/classes/org/unreal/cloud/UserCenterApplication.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/rest/AuthenticationRest.kt" afterPath="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/rest/AuthenticationController.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/UserCenterApplication.kt" afterPath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/UserCenterApplication.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/auth/rest/UserController.kt" afterPath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/rest/UserController.kt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/dao/BaseUserDao.java" afterPath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/dao/BaseUserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/model/BaseUserEntity.java" afterPath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/model/BaseUserEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/service/BaseUserService.java" afterPath="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/service/BaseUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/IdeaProject-cloud.iml" afterPath="$PROJECT_DIR$/.idea/modules/IdeaProject-cloud.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/AuthApplication.kt" afterPath="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/AuthApplication.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-auth/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/unreal-auth/src/main/resources/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-common/build.gradle" afterPath="$PROJECT_DIR$/unreal-common/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java" afterPath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/BaseException.java" afterPath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/BaseException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/handler/GlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/handler/GlobalExceptionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-hibernate-tools.iml" afterPath="$PROJECT_DIR$/unreal-hibernate-tools.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-zuul/build.gradle" afterPath="$PROJECT_DIR$/unreal-zuul/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-zuul/out/production/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/unreal-zuul/out/production/classes/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/ZuulApplication.kt" afterPath="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/ZuulApplication.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unreal-zuul/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/unreal-zuul/src/main/resources/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-center/build.gradle" afterPath="$PROJECT_DIR$/user-center/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-center/out/production/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/user-center/out/production/classes/bootstrap.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-center/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/user-center/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -69,6 +75,9 @@
     <ignored path="$PROJECT_DIR$/unreal-jwt/.gradle/" />
     <ignored path="$PROJECT_DIR$/unreal-jwt/build/" />
     <ignored path="$PROJECT_DIR$/unreal-jwt/out/" />
+    <ignored path="$PROJECT_DIR$/unreal-auth/.gradle/" />
+    <ignored path="$PROJECT_DIR$/unreal-auth/build/" />
+    <ignored path="$PROJECT_DIR$/unreal-auth/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +93,12 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="root@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="ExternalProjectsData">
@@ -95,12 +109,33 @@
   <component name="ExternalProjectsManager" storeExternally="true">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/unreal-auth">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="cloud" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cloud" type="f1a62948:ProjectNode" />
+                <item name=":unreal-auth" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cloud" type="f1a62948:ProjectNode" />
+                <item name=":unreal-auth" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cloud" type="f1a62948:ProjectNode" />
+                <item name=":unreal-auth" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -110,105 +145,31 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TokenInfo.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/kotlin/org/unreal/cloud/jwt/TokenInfo.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="97" lean-forward="false" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationRest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/rest/AuthenticationRest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#31#383#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unreal-zuul/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-center/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="66" lean-forward="false" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZuulApplication.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/ZuulApplication.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZuulFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.0/f882b342fd5428421d84a6e39d7b1b7f72af75dd/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RibbonRoutingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="119" column="9" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="119" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
-        <option value="Kotlin File" />
         <option value="FxmlFile" />
+        <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>disc</find>
+      <find>UserController</find>
+      <find>userController</find>
+      <find>50010</find>
+      <find>exception is ----&gt;</find>
+      <find>PRE_TYPE</find>
+      <find>HttpStatus.</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Administrator\IdeaProjects\unreal-cloud</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -238,6 +199,10 @@
               <ExternalProjectPojo>
                 <option name="name" value="cloud" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":unreal-auth" />
+                <option name="path" value="$PROJECT_DIR$/unreal-auth" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":unreal-common" />
@@ -349,7 +314,7 @@
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependency management declared in project ':unreal-common'." />
+                <option name="description" value="Displays the dependency management declared in project ':unreal-auth'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
@@ -435,6 +400,166 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'cloud'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/unreal-auth">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':unreal-auth'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':unreal-auth'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':unreal-auth'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the source set 'test'.kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="compileTestKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the source set 'main'.kotlin." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="compileKotlin" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':unreal-auth'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1404,19 +1529,20 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="15070348047868" />
+        <entry key="$PROJECT_DIR$" value="16581763418107" />
         <entry key="$PROJECT_DIR$/build.gradle" value="877780684" />
         <entry key="$PROJECT_DIR$/common/build.gradle" value="1245390932" />
         <entry key="$PROJECT_DIR$/config/build.gradle" value="3488177461" />
         <entry key="$PROJECT_DIR$/eureka/build.gradle" value="1675344192" />
         <entry key="$PROJECT_DIR$/mybatis-common/build.gradle" value="787055484" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3629338658" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2474273366" />
         <entry key="$PROJECT_DIR$/spring.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/unreal-common/build.gradle" value="1245390932" />
+        <entry key="$PROJECT_DIR$/unreal-auth/build.gradle" value="986299439" />
+        <entry key="$PROJECT_DIR$/unreal-common/build.gradle" value="1703105550" />
         <entry key="$PROJECT_DIR$/unreal-config/build.gradle" value="3488177461" />
         <entry key="$PROJECT_DIR$/unreal-jwt/build.gradle" value="2801580229" />
-        <entry key="$PROJECT_DIR$/unreal-zuul/build.gradle" value="104546899" />
-        <entry key="$PROJECT_DIR$/user-center/build.gradle" value="2739686595" />
+        <entry key="$PROJECT_DIR$/unreal-zuul/build.gradle" value="3034744197" />
+        <entry key="$PROJECT_DIR$/user-center/build.gradle" value="851155864" />
         <entry key="$PROJECT_DIR$/zuul/build.gradle" value="3141389386" />
       </map>
     </option>
@@ -1461,6 +1587,43 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/unreal-auth">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.51/f1ba9fb14391d73aa87d16fa003ba8cb4127a699/kotlin-gradle-plugin-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.1.51/1b52dc196b624b3df76dd5ed3a3d8ddcd22736ab/kotlin-gradle-plugin-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/86e765c58b4f26125714d466f1d0e0ff12b1ff76/spring-boot-gradle-plugin-1.5.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.6.RELEASE/c072438c3be7f48f1ecb595fe73d6140bbe8d1ae/spring-boot-gradle-plugin-1.5.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.1.51/f0479353d23c7f62798d09da65240e5a87cb436/kotlin-gradle-plugin-api-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.1.51/94fc9409f2f88c4d2084a7eb9a5fb12f5f7ae125/kotlin-gradle-plugin-api-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/b44aed5fe16fe27bb75488a2274d435e875fdb44/kotlin-stdlib-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.1.51/e34fe80c9714240525f665113dd3749415515655/kotlin-stdlib-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.1.51/2f78bd9e3c22e799de831fc5ea2ae1f00731235a/kotlin-android-extensions-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.1.51/5c33f0c440fdd8416f77824bda078426c3f3dc94/kotlin-android-extensions-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.1.51/a1e271d08c102b7d1878d46f9983c664fe6ad364/kotlin-compiler-embeddable-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.1.51/e87f62328a705dc5c5b857f1aa50d1732c8bc3d6/kotlin-compiler-embeddable-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.1.51/8c6bad7973ed1c31f19763bc8759a5ed8bee183c/kotlin-compiler-runner-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.1.51/307b950831a67e1e3db3afa15281575441e8dc21/kotlin-compiler-runner-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.1.51/e1e659536386d4c1a03375027163efd87869f640/kotlin-annotation-processing-1.1.51-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing/1.1.51/236f9e54c9f2fa4fd75efade8d07092fdf86e424/kotlin-annotation-processing-1.1.51.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/5c2596d77f3b1f87c921bb568f0203b54dcbd8b0/spring-boot-loader-tools-1.5.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.6.RELEASE/9cd2349e3be4af2a59210b37e7ee1fdab043644/spring-boot-loader-tools-1.5.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/74cacfe24c0f88a4577990fb24c9fdf4a73f443c/spring-core-4.3.10.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.10.RELEASE/db1462df62dbedad7244da30ec471390660271c0/spring-core-4.3.10.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/unreal-auth" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1779,41 +1942,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka/src/main/java/org/unreal/cloud/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/zuul/src/main/java/ZuulApplication.kt" />
-        <option value="$PROJECT_DIR$/zuul/src/main/java/org/unreal/cloud/ZuulApplication.kt" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/zuul/build.gradle" />
-        <option value="$PROJECT_DIR$/user-center/src/main/java/UserCenterApplication.kt" />
-        <option value="$PROJECT_DIR$/config/src/main/java/ConfigApplication.kt" />
-        <option value="$PROJECT_DIR$/config/build.gradle" />
-        <option value="$PROJECT_DIR$/config/src/main/java/org/unreal/cloud/ConfigApplication.kt" />
-        <option value="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/UserCenterApplication.kt" />
-        <option value="$PROJECT_DIR$/user-center/build.gradle" />
-        <option value="$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/rest/UserController.kt" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/bean/Page.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/Page.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/manager/BaseBiz.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/service/impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/manager/BaseManager.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/vo/TableResultResponse.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/rest/BaseController.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/util/EntityUtils.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/util/Query.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/util/TreeUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/util/jwt/JWTHelper.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java" />
-        <option value="$PROJECT_DIR$/mybatis-common/src/main/java/service/impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/mybatis-common/build.gradle" />
-        <option value="$PROJECT_DIR$/common/build.gradle" />
         <option value="$PROJECT_DIR$/unreal-eureka/out/production/classes/org/unreal/cloud/EurekaApplication.class" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/unreal-jwt/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/unreal-jwt/src/main/kotlin/org/unreal/cloud/jwt/KeyUtils.kt" />
         <option value="$PROJECT_DIR$/unreal-jwt/src/test/kotlin/test/JwtTestCase.java" />
         <option value="$PROJECT_DIR$/unreal-jwt/src/test/java/org/unreal/cloud/JwtTestCase.java" />
@@ -1827,9 +1958,41 @@
         <option value="$PROJECT_DIR$/unreal-zuul/src/main/java/org/unreal/cloud/filter/Filter.kt" />
         <option value="$PROJECT_DIR$/unreal-zuul/src/main/java/org/unreal/cloud/filter/JwtFilter.kt" />
         <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/cloud/rest/AuthenticationRest.kt" />
-        <option value="$PROJECT_DIR$/unreal-zuul/build.gradle" />
         <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/auth/AuthErrorException.java" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/fegin/UserCenterFegin.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/fegin/UserCenterFeign.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/feign/UserCenterFeign.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/service/UserService.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/rest/AuthenticationRest.kt" />
         <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/rest/AuthenticationRest.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/auth/rest/AuthenticationRest.kt" />
+        <option value="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/AuthenticationRest.kt" />
+        <option value="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/ZuulApplication.kt" />
+        <option value="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/AuthApplication.kt" />
+        <option value="$PROJECT_DIR$/unreal-auth/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/unreal-auth/build.gradle" />
+        <option value="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/rest/AuthenticationRest.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/unreal-zuul/build.gradle" />
+        <option value="$PROJECT_DIR$/user-center/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user-center/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/ZuulApplication.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/error/GlobalErrorController.kt" />
+        <option value="$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/rest/AuthenticationController.kt" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/constant/ExceptionConstants.java" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/auth/TokenErrorException.java" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/BaseException.java" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/user-center/build.gradle" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/vo/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/unreal-common/build.gradle" />
+        <option value="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/rest/UserController.kt" />
+        <option value="$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/filter/AccessFilter.kt" />
+        <option value="$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/handler/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/config/MvcConfig.java" />
       </list>
     </option>
   </component>
@@ -1861,9 +2024,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1871,110 +2031,13 @@
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="unreal-common" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="unreal-cloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="user-center" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1986,24 +2049,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/unreal-eureka" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="SearchEverywhereHistoryKey" value="userController&#9;null&#9;null&#10;UserController&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\unreal-cloud\unreal-jwt\src\main\resources" />
-      <recent name="D:\IdeaProjects\cloud\common\src\main\java" />
-      <recent name="D:\IdeaProjects\cloud\user-center\src\main\java\org\unreal\cloud" />
-      <recent name="D:\IdeaProjects\cloud\eureka\src\main" />
-      <recent name="D:\IdeaProjects\cloud\eureka\src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.unreal.cloud.user" />
+      <recent name="org.unreal.cloud.user.rest" />
+      <recent name="org.unreal.cloud.auth.rest" />
+      <recent name="org.unreal.cloud.auth" />
       <recent name="org.unreal.cloud" />
-      <recent name="org.unreal.cloud.rest" />
-      <recent name="org.unreal.cloud.jwt" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.unreal.cloud.auth" />
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -2012,6 +2072,17 @@
       <recent name="D:\IdeaProjects\cloud" />
       <recent name="D:\IdeaProjects\cloud\mybatis-common\src\main\java" />
       <recent name="D:\IdeaProjects\cloud\common\src\main\java\org\unreal\cloud\common\vo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.unreal.cloud.user.config" />
+      <recent name="org.unreal.cloud.common.exception.auth" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\unreal-cloud\user-center\src\main\java\org\unreal\cloud\user" />
+      <recent name="C:\Users\Administrator\IdeaProjects\unreal-cloud\unreal-jwt\src\main\resources" />
+      <recent name="D:\IdeaProjects\cloud\common\src\main\java" />
+      <recent name="D:\IdeaProjects\cloud\user-center\src\main\java\org\unreal\cloud" />
+      <recent name="D:\IdeaProjects\cloud\eureka\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2026,7 +2097,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.org.unreal.cloud.ZuulApplication">
+  <component name="RunManager" selected="Kotlin.org.unreal.cloud.user.UserCenterApplication">
     <configuration name="JwtTestCase.testGenToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unreal-jwt_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -2045,51 +2116,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration name="JwtTestCase.testKeyUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unreal-jwt_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.unreal.cloud.test" />
-      <option name="MAIN_CLASS_NAME" value="org.unreal.cloud.test.JwtTestCase" />
-      <option name="METHOD_NAME" value="testKeyUtils" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/unreal-jwt" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="KeyHelper (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.unreal.cloud.common.util.KeyHelper" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="unreal-cloud-unreal-common_main" />
-      <envs />
-    </configuration>
-    <configuration name="KeyHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KeyHelper" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="unreal-jwt_main" />
-      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -2168,6 +2194,45 @@
       <module name="unreal-cloud-unreal-zuul_main" />
       <envs />
     </configuration>
+    <configuration name="org.unreal.cloud.auth.AuthApplication" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unreal.cloud.auth.AuthApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unreal-auth_main" />
+      <envs />
+    </configuration>
+    <configuration name="org.unreal.cloud.user.UserCenterApplication" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.unreal.cloud.user.UserCenterApplication" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unreal-cloud-user-center_main" />
+      <envs />
+    </configuration>
+    <configuration name="unreal-cloud:unreal-auth [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/unreal-auth" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <configuration name="zuul" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2187,19 +2252,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Gradle.zuul" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JwtTestCase.testGenToken" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JwtTestCase.testKeyUtils" />
-      <item index="3" class="java.lang.String" itemvalue="Application.KeyHelper" />
-      <item index="4" class="java.lang.String" itemvalue="Application.KeyHelper (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.ZuulApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.unreal-cloud:unreal-auth [build]" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JwtTestCase.testGenToken" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.ZuulApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.auth.AuthApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.user.UserCenterApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.ZuulApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JwtTestCase.testGenToken" />
-        <item index="2" class="java.lang.String" itemvalue="Application.KeyHelper (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.KeyHelper" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JwtTestCase.testKeyUtils" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.user.UserCenterApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.ZuulApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.org.unreal.cloud.auth.AuthApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.unreal-cloud:unreal-auth [build]" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JwtTestCase.testGenToken" />
       </list>
     </recent_temporary>
   </component>
@@ -2220,6 +2285,8 @@
       <workItem from="1507078729965" duration="2660000" />
       <workItem from="1507098129904" duration="7475000" />
       <workItem from="1507540687519" duration="622000" />
+      <workItem from="1507596457314" duration="42776000" />
+      <workItem from="1508150704452" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="add Json web token project">
       <created>1507026475283</created>
@@ -2242,7 +2309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507111506013</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/ChineseLincoln/unreal-cloud&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml&#10;#&#9;.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml&#10;#&#9;.idea/modules/unreal-config/unreal-cloud-unreal-config_main.iml&#10;#&#9;.idea/modules/unreal-config/unreal-cloud-unreal-config_test.iml&#10;#&#9;.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_main.iml&#10;#&#9;.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_test.iml&#10;#&#9;.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_main.iml&#10;#&#9;.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_test.iml&#10;#&#9;.idea/modules/user-center/unreal-cloud-user-center_main.iml&#10;#&#9;.idea/modules/user-center/unreal-cloud-user-center_test.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;unreal-common/out/production/classes/org/unreal/cloud/common/util/KeyHelper.class&#10;#&#9;unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java&#10;&#10;修复 zuul 路由 无法跳转的问题">
+      <created>1507617419978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507617419978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2278,7 +2352,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28728000" />
+    <option name="totallyTimeSpent" value="71573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2293,36 +2367,70 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3630435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16897655" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.49275362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32524806" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36630434" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48" sideWeight="0.50442475" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.49557522" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2360,254 +2468,354 @@
     <MESSAGE value="add Json web token project" />
     <MESSAGE value="支持RSA256加密" />
     <MESSAGE value="Java to Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java to Kotlin" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/ChineseLincoln/unreal-cloud&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml&#10;#&#9;.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml&#10;#&#9;.idea/modules/unreal-config/unreal-cloud-unreal-config_main.iml&#10;#&#9;.idea/modules/unreal-config/unreal-cloud-unreal-config_test.iml&#10;#&#9;.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_main.iml&#10;#&#9;.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_test.iml&#10;#&#9;.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_main.iml&#10;#&#9;.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_test.iml&#10;#&#9;.idea/modules/user-center/unreal-cloud-user-center_main.iml&#10;#&#9;.idea/modules/user-center/unreal-cloud-user-center_test.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;unreal-common/out/production/classes/org/unreal/cloud/common/util/KeyHelper.class&#10;#&#9;unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java&#10;&#10;修复 zuul 路由 无法跳转的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ChineseLincoln/unreal-cloud&#10;&#10;# Conflicts:&#10;#&#9;.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml&#10;#&#9;.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml&#10;#&#9;.idea/modules/unreal-config/unreal-cloud-unreal-config_main.iml&#10;#&#9;.idea/modules/unreal-config/unreal-cloud-unreal-config_test.iml&#10;#&#9;.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_main.iml&#10;#&#9;.idea/modules/unreal-eureka/unreal-cloud-unreal-eureka_test.iml&#10;#&#9;.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_main.iml&#10;#&#9;.idea/modules/unreal-zuul/unreal-cloud-unreal-zuul_test.iml&#10;#&#9;.idea/modules/user-center/unreal-cloud-user-center_main.iml&#10;#&#9;.idea/modules/user-center/unreal-cloud-user-center_test.iml&#10;#&#9;.idea/workspace.xml&#10;#&#9;unreal-common/out/production/classes/org/unreal/cloud/common/util/KeyHelper.class&#10;#&#9;unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java&#10;&#10;修复 zuul 路由 无法跳转的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/vo/RestResponse.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/vo/ListRestResponse.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/constant/CommonConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/constant/UserConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/manager/BaseManager.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/msg/ObjectRestResponse.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/msg/TableResultResponse.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/msg/ListRestResponse.java" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/org/unreal/cloud/common/rest/BaseController.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/ReflectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-common/src/main/java/service/impl/BaseServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis-common/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/eureka/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/unreal-eureka/out/production/classes/org/unreal/cloud/EurekaApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/jwt/JWTInfo.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/jwt/JWTHelper.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/jwt/IJWTInfo.java" />
-    <entry file="file://$PROJECT_DIR$/spring.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt/0.7.0/b75369bdfec0a18d83643580b1b2e608f4fa3ba4/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/keyFile.txt" />
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/kotlin/org/unreal/cloud/jwt/KeyUtils.kt" />
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/resources/pub.key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/resources/pri.key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/src/test/java/org/unreal/cloud/test/JwtTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/kotlin/org/unreal/cloud/jwt/JwtTokenUtils.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#30#171#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/java/org/unreal/cloud/ZuulApplication.kt" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/KeyHelper.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/ClientUtil.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/util/ZuulRuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="283">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/EntityUtils.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.16/7aeaf75588460ffdceaa6dad4224d5d219fb6855/tomcat-embed-core-8.5.16-sources.jar!/org/apache/catalina/connector/RequestFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1618">
-          <caret line="77" column="61" lean-forward="false" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="175">
+          <caret line="850" column="0" lean-forward="false" selection-start-line="850" selection-start-column="0" selection-end-line="850" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/Query.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/StringHelper.java" />
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/util/TreeUtil.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-client/1.19.1/17893fb3a8a30c46044c00cb29d09a363db66d16/jersey-client-1.19.1-sources.jar!/com/sun/jersey/api/client/filter/GZIPContentEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/kotlin/org/unreal/cloud/jwt/KeyHelper.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.0/f882b342fd5428421d84a6e39d7b1b7f72af75dd/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/IZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/PreDecorationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="110" column="64" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-jwt/src/main/kotlin/org/unreal/cloud/jwt/TokenInfo.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="97" lean-forward="false" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.0/f882b342fd5428421d84a6e39d7b1b7f72af75dd/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="119" column="9" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="119" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/java/org/unreal/cloud/filter/JwtFilter.kt" />
-    <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/cloud/filter/JwtFilter.kt" />
-    <entry file="file://$PROJECT_DIR$/user-center/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="66" lean-forward="false" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="185">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-879">
+          <caret line="139" column="19" lean-forward="false" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="480" column="15" lean-forward="false" selection-start-line="480" selection-start-column="15" selection-end-line="480" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/AuthApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="168" column="4" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="256" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-auth/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="213" column="5" lean-forward="true" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="62" column="11" lean-forward="true" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/out/production/classes/org/unreal/cloud/common/handler/GlobalExceptionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/error/GlobalErrorController.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.0/f882b342fd5428421d84a6e39d7b1b7f72af75dd/zuul-core-1.3.0-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.3.4.RELEASE/1a92f05e27c032aecd7a58b9958b06560a42580f/spring-cloud-netflix-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/post/SendErrorFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.5.6.RELEASE/886dd7e892be7916e04323269afcf24b0211dae5/spring-boot-1.5.6.RELEASE-sources.jar!/org/springframework/boot/web/support/ErrorPageFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5772">
+          <caret line="83" column="64" lean-forward="true" selection-start-line="83" selection-start-column="64" selection-end-line="83" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.16/7aeaf75588460ffdceaa6dad4224d5d219fb6855/tomcat-embed-core-8.5.16-sources.jar!/javax/servlet/http/HttpServletResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="139" column="16" lean-forward="false" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.10.RELEASE/8cdffc946fec6396a9781e47c2822c8986c3759e/spring-webmvc-4.3.10.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-auth/src/main/kotlin/org/unreal/cloud/auth/rest/AuthenticationController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/context/BaseContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/constant/ExceptionConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/config/WebMvcConfig.java" />
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/config/MvcConfig.java" />
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/vo/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.10.RELEASE/e350109ba4a031049863e3e9d9f3d386ef73cfd9/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/http/MediaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="101" column="58" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/BaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unreal-zuul/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/vo/BaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/service/BaseUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.10.RELEASE/b891c5162908b5d092240c24df1b5e972a17768d/spring-context-4.3.10.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="403" column="10" lean-forward="true" selection-start-line="403" selection-start-column="10" selection-end-line="403" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/exception/auth/TokenErrorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-common/src/main/java/org/unreal/cloud/common/handler/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/rest/UserController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/filter/AccessFilter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/ZuulApplication.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/model/BaseUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/dao/BaseUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/UserCenterApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unreal-zuul/src/main/kotlin/org/unreal/cloud/rest/AuthenticationRest.kt">
+    <entry file="file://$PROJECT_DIR$/user-center/src/main/java/org/unreal/cloud/user/config/MvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#31#383#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/unreal/cloud/model/GateLogEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/unreal/cloud/model/BaseGroupTypeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/unreal/cloud/model/BaseGroupLeaderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/unreal/cloud/model/BaseGroupEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/unreal/cloud/model/BaseElementEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-hibernate-toolsa.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unreal-hibernate-tools.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2663,7 +2871,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>unreal-jwt_main|unreal-jwt</last-edited>
+          <last-edited>unreal-cloud-unreal-zuul_main|unreal-zuul</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

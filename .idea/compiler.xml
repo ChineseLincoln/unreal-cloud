@@ -16,6 +16,8 @@
       <module name="mybatis-common_test" target="1.8" />
       <module name="parent_main" target="1.8" />
       <module name="parent_test" target="1.8" />
+      <module name="unreal-auth_main" target="1.8" />
+      <module name="unreal-auth_test" target="1.8" />
       <module name="unreal-cloud-unreal-common_main" target="1.8" />
       <module name="unreal-cloud-unreal-common_test" target="1.8" />
       <module name="unreal-cloud-unreal-config_main" target="1.8" />

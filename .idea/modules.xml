@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProject-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProject-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IdeaProjects-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/IdeaProjects-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka.iml" group="eureka" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka/eureka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka/eureka_main.iml" group="eureka" />
@@ -10,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/parent.iml" filepath="$PROJECT_DIR$/.idea/modules/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/parent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/parent_main.iml" group="parent" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/parent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/parent_test.iml" group="parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-auth.iml" group="unreal-auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_main.iml" group="unreal-auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_test.iml" group="unreal-auth" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common.iml" group="unreal-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_main.iml" group="unreal-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-common/unreal-cloud-unreal-common_test.iml" group="unreal-common" />
@@ -36,6 +40,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-eureka/unreal-eureka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-eureka/unreal-eureka_test.iml" group="unreal-eureka" />
       <module fileurl="file://$PROJECT_DIR$/unreal-hibernate-tools.iml" filepath="$PROJECT_DIR$/unreal-hibernate-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/unreal-hibernate-toolsa.iml" filepath="$PROJECT_DIR$/unreal-hibernate-toolsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt.iml" group="unreal-jwt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_main.iml" group="unreal-jwt" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-jwt/unreal-jwt_test.iml" group="unreal-jwt" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-zuul.iml" group="unreal-zuul" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-zuul_main.iml" group="unreal-zuul" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-zuul/unreal-zuul_test.iml" group="unreal-zuul" />

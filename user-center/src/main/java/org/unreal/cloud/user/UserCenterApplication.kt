@@ -1,4 +1,4 @@
-package org.unreal.cloud
+package org.unreal.cloud.user
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

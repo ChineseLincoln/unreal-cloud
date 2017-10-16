@@ -3,7 +3,6 @@ package org.unreal.cloud.common.context;
 
 
 import org.unreal.cloud.common.constant.CommonConstants;
-import org.unreal.cloud.common.util.StringHelper;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -36,17 +35,17 @@ public class BaseContextHandler {
 
     public static String getUserID(){
         Object value = get(CommonConstants.CONTEXT_KEY_USER_ID);
-        return StringHelper.getObjectValue(value);
+        return value == null ? "" : (String) value;
     }
 
     public static String getUsername(){
         Object value = get(CommonConstants.CONTEXT_KEY_USERNAME);
-        return StringHelper.getObjectValue(value);
+        return value == null ? "" : (String) value;
     }
 
     public static String getName(){
         Object value = get(CommonConstants.CONTEXT_KEY_USER_NAME);
-        return StringHelper.getObjectValue(value);
+        return value == null ? "" : (String) value;
     }
 
     public static void setUserID(String userID){

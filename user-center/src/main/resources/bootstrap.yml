@@ -3,13 +3,13 @@ server:
 
 spring:
   application:
-    name: server-user
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        serviceId: server-config
-      profile: dev
+    name: user-center
+#  cloud:
+#    config:
+#      discovery:
+#        enabled: true
+#        serviceId: server-config
+#      profile: dev
 
 eureka:
   client:

@@ -5,4 +5,5 @@ include 'unreal-config'
 include 'unreal-common'
 include 'user-center'
 include 'unreal-jwt'
+include 'unreal-auth'
 

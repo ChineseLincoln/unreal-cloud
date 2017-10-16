@@ -11,6 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/unreal-auth" />
             <option value="$PROJECT_DIR$/unreal-common" />
             <option value="$PROJECT_DIR$/unreal-config" />
             <option value="$PROJECT_DIR$/unreal-eureka" />

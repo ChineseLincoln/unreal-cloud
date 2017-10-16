@@ -23,5 +23,4 @@ public class BaseException extends RuntimeException {
     public void setStatus(int status) {
         this.status = status;
     }
-
 }

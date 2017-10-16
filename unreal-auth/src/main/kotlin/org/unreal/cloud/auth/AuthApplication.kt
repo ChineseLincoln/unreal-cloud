@@ -16,5 +16,4 @@ open class  AuthApplication{
             SpringApplication.run(AuthApplication::class.java, *args)
         }
     }
-
 }
