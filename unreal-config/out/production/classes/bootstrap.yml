@@ -11,7 +11,7 @@ spring:
           uri: https://github.com/ChineseLincoln/SpringcloudConfig/
           label: master
           searchPaths: respo
-          username: sodlinken@gmail.com
+          account: sodlinken@gmail.com
           password: xiaoli901001
 
 eureka:

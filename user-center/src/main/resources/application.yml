@@ -1,7 +1,7 @@
 spring:
   datasource:
       driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql://192.168.0.144:3306/ag_admin?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      url: jdbc:mysql://192.168.0.144:3306/unreal_cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username: root
       password: root
       druid:
@@ -33,3 +33,6 @@ spring:
           #属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有：
           #监控统计用的filter:stat 日志用的filter:log4j 防御SQL注入的filter:wall
           filters: stat
+client:
+  id: 2
+  secret: 123456

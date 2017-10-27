@@ -1,6 +1,4 @@
 dependencies {
-    compile 'org.springframework.cloud:spring-cloud-config-client'
-    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
     compile 'org.springframework.cloud:spring-cloud-starter-hystrix'
     compile 'com.alibaba:druid-spring-boot-starter:1.1.3'
     compile 'mysql:mysql-connector-java:5.1.30'

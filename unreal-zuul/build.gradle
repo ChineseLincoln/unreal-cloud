@@ -1,6 +1,5 @@
 dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-zuul')
     compile('org.springframework.boot:spring-boot-starter-web')
-    compile project(":unreal-jwt")
     compile project(":unreal-common")
 }

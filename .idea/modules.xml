@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/parent.iml" filepath="$PROJECT_DIR$/.idea/modules/parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/parent_main.iml" filepath="$PROJECT_DIR$/.idea/modules/parent_main.iml" group="parent" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/parent_test.iml" filepath="$PROJECT_DIR$/.idea/modules/parent_test.iml" group="parent" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-center.iml" filepath="$PROJECT_DIR$/.idea/modules/router-center.iml" group="router-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-center/router-center_main.iml" filepath="$PROJECT_DIR$/.idea/modules/router-center/router-center_main.iml" group="router-center" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/router-center/router-center_test.iml" filepath="$PROJECT_DIR$/.idea/modules/router-center/router-center_test.iml" group="router-center" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-auth.iml" group="unreal-auth" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_main.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_main.iml" group="unreal-auth" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_test.iml" filepath="$PROJECT_DIR$/.idea/modules/unreal-auth/unreal-auth_test.iml" group="unreal-auth" />

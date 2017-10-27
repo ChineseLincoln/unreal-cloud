@@ -8,19 +8,11 @@ public class BaseException extends RuntimeException {
 
     public BaseException(ExceptionConstants constants) {
         super(constants.getMessage());
-        this.status = constants.getStatusCode();
-    }
-
-    public BaseException(){
-        super(ExceptionConstants.EX_UNKNOWN_ERROR.getMessage());
-        this.status = ExceptionConstants.EX_UNKNOWN_ERROR.getStatusCode();
+        this.status = constants.getStatus();
     }
 
     public int getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
-        this.status = status;
-    }
 }

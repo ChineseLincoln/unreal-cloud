@@ -1,23 +1,30 @@
 package org.unreal.cloud.auth.rest
 
-import org.springframework.http.ResponseEntity
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import org.unreal.cloud.common.exception.auth.TokenErrorException
+import org.unreal.cloud.auth.service.RouterCenterService
+import org.unreal.cloud.auth.service.UserCenterService
+import org.unreal.cloud.common.vo.BaseResponse
 import org.unreal.cloud.jwt.JwtTokenUtils
 import org.unreal.cloud.jwt.TokenInfo
 
 @RestController
-@RequestMapping("/jwt")
-class AuthenticationController {
+@RequestMapping(value = "/jwt", produces = arrayOf(MediaType.APPLICATION_JSON_UTF8_VALUE))
+open class AuthenticationController {
 
-    @PostMapping
-    fun authentication(account:String , password :String): ResponseEntity<*>{
-        return if(account == "lincoln" && password == "123123"){
-            ResponseEntity.ok(JwtTokenUtils.getToken(TokenInfo("1",account,"admin","林肯")))
-        }else{
-            throw TokenErrorException()
-        }
+    @Autowired
+    private lateinit var userCenterService: UserCenterService
+
+    @PostMapping("/users")
+    open fun authenticationUser(account: String, password: String): BaseResponse<String> {
+        val userResponse = userCenterService.login(account, password)
+        val user = userResponse.data
+        val tokenInfo = TokenInfo(user.id.toString(), user.account, "", user.name ?: "游客${user.id}")
+        val token = JwtTokenUtils.getToken(tokenInfo)
+        return BaseResponse.ok(token)
     }
+
 }

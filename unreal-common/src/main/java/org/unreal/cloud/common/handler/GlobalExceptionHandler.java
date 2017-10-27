@@ -16,29 +16,32 @@ import java.util.Map;
 @ControllerAdvice
 @ResponseBody
 public class GlobalExceptionHandler {
+
     Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
     @ExceptionHandler(BaseException.class)
-    public String baseExceptionHandler(HttpServletResponse response , BaseException ex){
+    public String baseExceptionHandler(HttpServletResponse response, BaseException ex) {
+        return makeErrorJson(ex);
+    }
+
+    @ExceptionHandler(RuntimeException.class)
+    public String exceptionHandler(HttpServletResponse response, Exception ex) {
         return makeErrorJson(ex);
     }
 
     private String makeErrorJson(Exception ex) {
-        Map<String,Object> result = new HashMap<>();
-        if(ex instanceof BaseException){
+        ex.printStackTrace();
+        Map<String, Object> result = new HashMap<>();
+        if (BaseException.class.isAssignableFrom(ex.getClass())) {
             BaseException baseException = (BaseException) ex;
-            result.put("status",baseException.getStatus());
-            result.put("message",baseException.getMessage());
-        }else{
-            result.put("status",9999);
-            result.put("message",ex.getMessage());
+            result.put("status", baseException.getStatus());
+            result.put("message", baseException.getMessage());
+        } else {
+            result.put("status", 9999);
+            result.put("message", ex.getMessage());
         }
         return new Gson().toJson(result);
     }
 
-    @ExceptionHandler(RuntimeException.class)
-    public String exceptionHandler(HttpServletResponse response , Exception ex){
-        logger.error("接口请求错误",ex);
-        return makeErrorJson(ex);
-    }
+
 }

@@ -5,10 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient
 import org.springframework.cloud.netflix.feign.EnableFeignClients
 import org.springframework.cloud.netflix.zuul.EnableZuulServer
+import org.springframework.scheduling.annotation.EnableScheduling
 
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+@EnableScheduling
 open class  AuthApplication{
     companion object {
         @JvmStatic

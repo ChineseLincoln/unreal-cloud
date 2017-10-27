@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-eureka_main" target="1.8" />
       <module name="cloud-eureka_test" target="1.8" />
@@ -16,6 +19,8 @@
       <module name="mybatis-common_test" target="1.8" />
       <module name="parent_main" target="1.8" />
       <module name="parent_test" target="1.8" />
+      <module name="router-center_main" target="1.8" />
+      <module name="router-center_test" target="1.8" />
       <module name="unreal-auth_main" target="1.8" />
       <module name="unreal-auth_test" target="1.8" />
       <module name="unreal-cloud-unreal-common_main" target="1.8" />
