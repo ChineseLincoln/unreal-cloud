@@ -1,0 +1,10 @@
+package org.unreal.cloud.user.exception
+
+import org.unreal.cloud.common.constant.ExceptionConstants
+import org.unreal.cloud.common.exception.BaseException
+
+class UserNotFoundException : BaseException(ExceptionConstants.EX_USER_NOT_FOUND)
+class UserAuthException : BaseException(ExceptionConstants.EX_USER_AUTH_FAIL)
+class UserPasswordEncodeException : BaseException(ExceptionConstants.EX_USER_PASSWORD_ENCODE)
+class UserAccountOrPasswordEmptyException : BaseException(ExceptionConstants.EX_USER_ACCOUNT_OR_PASSWORD_EMPTY)
+class UserAccountAlreadyUsedException : BaseException(ExceptionConstants.EX_USER_ACCOUNT_ALREADY_USED)

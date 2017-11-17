@@ -40,6 +40,7 @@ class AccessFilter : ZuulFilter(){
             try {
                 val parseToken = JwtTokenUtils.parseToken(token)
             }catch (e:Exception){
+                e.printStackTrace()
                 sendAuthError(ctx)
             }
         }

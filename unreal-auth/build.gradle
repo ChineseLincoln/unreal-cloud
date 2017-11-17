@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':unreal-jwt')
+    compile project(':unreal-common')
+}
