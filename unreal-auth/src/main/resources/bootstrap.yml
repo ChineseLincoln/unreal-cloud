@@ -5,10 +5,6 @@ spring:
   application:
     name: auth-service
 
-client:
-  id : 1
-  secret : 123456
-
 enureka:
   client:
     serviceUrl:

@@ -5,7 +5,6 @@ import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import org.unreal.cloud.auth.service.RouterCenterService
 import org.unreal.cloud.auth.service.UserCenterService
 import org.unreal.cloud.common.vo.BaseResponse
 import org.unreal.cloud.jwt.JwtTokenUtils
